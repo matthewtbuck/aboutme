@@ -1,0 +1,28 @@
+body, h1, h2, h3, p { /*These affect all five of the listed tags at once*/
+	font-family: quicksand, sans-serif; /*This is the adobe font that I chose*/
+	font-weight: 400; /*This affects how bold the font is*/
+	font-style: normal; /*Style of the font, nothing changed*/
+	text-align: center; /*Text is all aligned to the center of the page (in this case the center of the bootstrap columns)*/
+}
+body {
+	background-image: url(https://github.com/matthewtbuck/images/blob/main/graph.png?raw=true); /*Sets the background of the entire page to a grid*/
+}
+img {
+	height: 400px; /*Changes the height of all images on the page to 400 pixels*/
+	width: auto; /*Adjusts the width of all images automatically*/
+}
+.radius {
+	border-radius: 75%;
+}
+img:hover { /*Affects all images when mouse cursor is over them*/
+	transform: scaleY(-1); /*Flips image of the Y-Axis*/
+}
+.foot { /*Affects only items with the "foot" class, that being the paragraph in my footer*/
+  position: absolute; /*Position stays the same all the time*/
+  bottom: 0; /*Position is at the very bottom of the page*/
+  width: 100%; /*No change in width*/
+  align-items: center; /*Aligns items over Y-Axis*/
+  justify-content: center; /*Aligns items over X-Axis*/
+}
+	
+	
